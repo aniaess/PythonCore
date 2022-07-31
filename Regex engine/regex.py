@@ -112,5 +112,6 @@ class Regex:
                     return self.regex_engine(pattern, word[1:], flag)
 
 
-pattern, word = tuple(input().split("|"))
-regex_machine = Regex(pattern, word)
+if __name__ == "__main__":
+    pattern, word = tuple(input().split("|"))
+    regex_machine = Regex(pattern, word)
