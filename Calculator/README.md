@@ -11,72 +11,73 @@ If a user enters an invalid command, the program prints Unknown command.
 - If a variable is valid but not declared yet, the program should print "Unknown variable".
 - If the part after the "=" is wrong program print "Invalid assignment". 
 
-#####Examples:
-> 8
-8
-> -2 + 4 - 5 + 6
-3
-> 9 +++ 10 -- 8
-27
-> 3 --- 5
--2
-> abc
-Invalid expression
-> 123+
-Invalid expression
-> +15
-15
-> 18 22
-Invalid expression
-> /go
-Unknown command
-> b = a
-> v=   7
-> n =9
-> count = 10
-> a = 1
-> a = 2
-> a = 3
-> a
-3
-> a2a
-Invalid identifier
-> n1 = a2a
-Invalid identifier
-> n = a2a
-Invalid assignment
-> a  =  3
-> b= 4
-> c =5
-> a + b - c
-2
-> b - c + 4 - a
-0
-> a = 800
-> a + b + c
-809
-> BIG = 9000
-> BIG
-9000
-> big
-Unknown variable
-> 8 * 3 + 12 * (4 - 2)
-48
-> 2 - 2 + 3
-3
-> 4 * (2 + 3
-Invalid expression
-> -10
--10
-> a=4
-> b=5
-> c=6
-> a*2+b*3+c*(2+3)
-53
-> 1 +++ 2 * 3 -- 4
-11
-> 3 *** 5
-Invalid expression
-> 4+3)
-> /exit
-Bye!
+#####Examples: I- input, O- Output
+I: 8
+O: 8
+I: -2 + 4 - 5 + 6
+O: 3
+I: 9 +++ 10 -- 8
+O: 27
+I: 3 --- 5
+O: -2
+I: abc
+O: Invalid expression
+I: 123+
+O: Invalid expression
+I: +15
+O: 15
+I: 18 22
+O: Invalid expression
+I: /go
+O: Unknown command
+I: b = a
+I: v=   7
+I: n =9
+I: count = 10
+I: a = 1
+I: a = 2
+I: a = 3
+I: a
+O: 3
+I: a2a
+O: Invalid identifier
+I: n1 = a2a
+O: Invalid identifier
+I: n = a2a
+O: Invalid assignment
+I: a  =  3
+I: b= 4
+I: c =5
+I: a + b - c
+O: 2
+I: b - c + 4 - a
+O: 0
+I: a = 800
+I: a + b + c
+O: 809
+I: BIG = 9000
+I: BIG
+O: 9000
+I: big
+O: Unknown variable
+I: 8 * 3 + 12 * (4 - 2)
+O: 48
+I: 2 - 2 + 3
+O: 3
+I: 4 * (2 + 3
+O: Invalid expression
+I:  -10
+O: -10
+I: a=4
+I: b=5
+I: c=6
+I: a*2+b*3+c*(2+3)
+O: 53
+I: 1 +++ 2 * 3 -- 4
+O: 11
+I: 3 *** 5
+O: Invalid expression
+I: 4+3)
+O: Invalid expression
+I: /exit
+O: Bye!
