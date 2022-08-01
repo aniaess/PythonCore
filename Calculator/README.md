@@ -11,7 +11,7 @@ If a user enters an invalid command, the program prints Unknown command.
 - If a variable is valid but not declared yet, the program should print "Unknown variable".
 - If the part after the "=" is wrong program print "Invalid assignment". 
 
-#####Examples:  I - input, O- Output\
+##### Examples:  I - input, O- Output\
 I: 8\
 O: 8\
 I: -2 + 4 - 5 + 6\
